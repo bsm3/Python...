@@ -172,9 +172,7 @@ def main():
 		print()
 		j += 1
 		os.system("clear")	
-	os.system("clear")
 	print()
-	os.system("clear")
 	start()
 	main()
 
