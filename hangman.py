@@ -135,10 +135,10 @@ def start():
 		ch = input("Do You want to play again? (y)yes/(n)no: ")
 		while ch not in ["Y", "y", "N", "n"]:
 			ch = input("Do You want to play again? (y)yes/(n)no: ")
-		if ch == 'y':
+		if ch.lower() == 'y':
 			os.system("clear")
 			main()
-		elif ch == 'n':
+		elif ch.lower() == 'n':
 			exit()
 	else:
 		print("Wrong guess. You are hanged!!!\n")
