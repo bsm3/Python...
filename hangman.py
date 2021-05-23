@@ -114,7 +114,7 @@ def hang(word, string, cpy):
 def start():
 	word = ""
 	cpy = []
-	rand = random.randint(1, 7)
+	rand = random.randint(1, 8)
 	rand = str(rand)
 	with open(text, "r") as f:
 		i = f.read(1)
